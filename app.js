@@ -44,7 +44,7 @@ for (let i = 0; i < 500; i++) {
 let q = 'INSERT INTO users (email, created_at) VALUES ?'
 
 connection.query(q, [data], function (error, results, fields) {
-  if (error) throw error;
+  if (error) throw error
   console.log(results)
 })
 
