@@ -1,0 +1,23 @@
+{
+  "name": "node_and_mysql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pporche87/node_and_mysql.git"
+  },
+  "author": "Patrick Porche <pporche87@gmail.com> (http://pporche87.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pporche87/node_and_mysql/issues"
+  },
+  "homepage": "https://github.com/pporche87/node_and_mysql#readme",
+  "dependencies": {
+    "faker": "^4.1.0",
+    "mysql": "^2.13.0"
+  }
+}
